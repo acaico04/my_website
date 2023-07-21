@@ -1,9 +1,11 @@
 /*Stylesheet by A.Caico, 2023*/
-//get the div id
-var theid = $('#mydiv').attr('id');
+//click listener with anonymous handler function
+$('table').on('click', function(){
+    alert('Madison Rocks! Go Badgers!');
+});
 
-//theid is 'mydiv', add it as text to the div
-$('#mydiv').append(theid);
+//add the event listener
+4('table').on('click');
 
-//add the class 'foo' to the div
-$('#mydiv').attr('class', 'foo')
+//remove the event listener
+$('table').off('click');
