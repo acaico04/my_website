@@ -5,7 +5,7 @@ $('table').on('click', function(){
 });
 
 //add the event listener
-4('table').on('click');
+$('table').on('click');
 
 //remove the event listener
 $('table').off('click');
